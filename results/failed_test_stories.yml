@@ -1,0 +1,18 @@
+version: "3.1"
+stories:
+- story: chao_hoi (.\tests\test_stories.yml)
+  steps:
+  - intent: xin_chao
+  - action: utter_hoiten
+  - intent: give_sex_and_name  # predicted: give_sex_and_name: [Anh](cust_sex) tên là [Thắng](cust_name)
+  - action: utter_xinchao_sex_and_name
+  - intent: tam_biet
+  - action: utter_tambiet
+- story: xin_chao_1 (.\tests\test_stories.yml)
+  steps:
+  - intent: xin_chao
+  - action: utter_hoiten
+  - intent: give_name  # predicted: give_name: [Mình](sex) là [Thắng](name)
+  - action: utter_xinchao_name
+  - intent: tam_biet
+  - action: utter_tambiet

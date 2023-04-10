@@ -1,0 +1,8 @@
+version: "3.1"
+stories:
+- story: mo_cua (.\tests\test_stories.yml)
+  steps:
+  - intent: ask_open_and_close
+  - action: utter_open_and_close  # predicted: action_unlikely_intent
+  - intent: tam_biet
+  - action: utter_tambiet

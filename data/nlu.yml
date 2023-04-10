@@ -1,0 +1,185 @@
+version: "3.1"
+nlu:
+- intent: xin_chao
+  examples: |
+    - xin chào
+    - chào bạn
+    - hello
+    - hi
+    - hey
+    - mình có vài câu hỏi
+    - có ai giúp mình không
+    - bạn giúp được tôi không
+    - bạn có tư vấn giúp mình được không
+    - bạn ơi
+    - anh ơi
+    - chị ơi
+    - cháu ơi
+    - shop ơi
+    - cho em hỏi ạ
+    - alo
+    - có ai ở đây không?
+    - chào shop
+    - chào
+- intent: tam_biet
+  examples: |
+    - tạm biệt
+    - chào tạm biệt
+    - chào tạm biệt em
+    - tạm biệt em
+    - tạm biệt em nhé
+    - bye
+    - bai bai
+    - bái bai
+    - bye bye
+- intent: cam_on
+  examples: |
+    - hay
+    - siêu
+    - tuyệt
+    - được rồi
+    - ổn rồi
+    - vâng
+    - thanks
+    - thank you
+    - many thanks
+    - thanks alot
+    - thanks very much
+    - thank you very much
+    - thank you so much
+    - ok
+    - cám ơn
+    - cám ơn nhé
+    - cảm ơn em
+    - cảm ơn em nhiều nhé
+    - cảm ơn
+- intent: ask_delivery
+  examples: |
+    - bạn có thể giao hàng cho tôi không
+    - bạn giao hàng được tới đâu
+    - bạn giao hàng được đến đâu
+    - bạn hỗ trợ giao hàng như thế nào
+    - bạn hỗ trợ hoàn trả hàng như thế nào
+    - chính sách giao hàng của bạn là gì
+- intent: ask_open_and_close
+  examples: |
+    - khi nào đóng cửa
+    - khi nào bạn đóng cửa
+    - khi nào shop đóng cửa
+    - khi nào em đóng cửa
+    - khi nào mở cửa
+    - khi nào bạn mở cửa
+    - khi nào shop mở cửa
+    - khi nào em mở cửa
+- intent: ask_promotion
+  examples: |
+    - khuyến mãi như thế nào
+    - khuyến mãi ra sao
+    - khi nào bắt đầu khuyến mãi
+    - khi nào kết thúc khuyến mãi
+    - cái gì khuyến mãi
+    - sản phẩm nào được khuyến mãi
+- intent: ask_maintain
+  examples: |
+    - hạn sử dụng như thế nào
+    - cách bảo quản như thế nào
+    - bảo quản ở đâu
+    - bảo quản chỗ nào
+    - sản phẩm nào cần bảo quản
+    - hướng dẫn bảo quản
+- intent: ask_menu
+  examples: |
+    - bạn có những món gì
+    - em có những món gì
+    - shop có những món gì
+    - cửa hàng có những món gì
+    - còn món nào không ạ
+    - còn không
+    - còn những món gì
+    - còn những thứ gì
+    - menu của cửa hàng bạn là gì
+- intent: ask_name_delicious
+  examples: |
+    - món nào ngon vậy ạ
+    - món nào ít calo
+    - món nào không ngọt
+- intent: ask_price
+  examples: |
+    - món nào rẻ
+    - món nào đắt nhất
+    - giá các món như thế nào
+- intent: ask_suitable
+  examples: |
+    - món nào phù hợp với trẻ nhỏ
+    - món nào cho người già
+- intent: ask_new
+  examples: |
+    - có mấy loại sản phẩm
+    - món nàn bán chạy nhất
+    - sản phẩm nào bán chạy nhất
+    - món nào mới nhất
+- intent: give_sex_and_name
+  examples: |
+    - [anh](cust_sex) tên là [Thắng](cust_name)
+    - [anh](cust_sex) tên là [Văn Thanh](cust_name)
+    - [anh](cust_sex) tên là [Huy](cust_name)
+    - [anh](cust_sex) tên là [Khang](cust_name)
+    - [anh](cust_sex) tên là [Bảo](cust_name)
+    - [anh](cust_sex) tên là [Minh](cust_name)
+    - [anh](cust_sex) tên là [Phúc](cust_name)
+    - [anh](cust_sex) tên là [Khoa](cust_name)
+    - [chị](cust_sex) tên là [Vy](cust_name)
+    - [chị](cust_sex) tên là [Ngọc](cust_name)
+    - [chị](cust_sex) tên là [Bảo Nhi](cust_name)
+    - [chị](cust_sex) tên là [Hân](cust_name)
+    - [chị](cust_sex) tên là [Thư](cust_name)
+    - [chị](cust_sex) tên là [Linh](cust_name)
+    - [chị](cust_sex) tên là [Như Quỳnh](cust_name)
+    - [chị](cust_sex) tên là [Minh Hằng](cust_name)
+    - [em](cust_sex) tên là [Trang](cust_name)
+    - [em](cust_sex) tên là [Vân Trang](cust_name)
+    - [em](cust_sex) tên là [Vy](cust_name)
+    - [em](cust_sex) tên là [Ngọc](cust_name)
+    - [em](cust_sex) tên là [Bảo Nhi](cust_name)
+    - [em](cust_sex) tên là [Hân](cust_name)
+    - [em](cust_sex) tên là [Thư](cust_name)
+    - [em](cust_sex) tên là [Linh](cust_name)
+    - [em](cust_sex) tên là [Như Quỳnh](cust_name)
+    - [cô](cust_sex) tên [Thúy](cust_name)
+    - [cô](cust_sex) tên [Liên](cust_name)
+    - [cô](cust_sex) tên [Lan](cust_name)
+    - [cô](cust_sex) tên [Như Ý](cust_name)
+    - [cô](cust_sex) tên [Thanh Anh](cust_name)
+    - [chú](cust_sex) tên [Hùng](cust_name)
+    - [chú](cust_sex) tên [Dương](cust_name)
+    - [chú](cust_sex) tên [Khiêm](cust_name)
+    - [bác](cust_sex) tên là [Tuấn](cust_name)
+    - [bác](cust_sex) tên là [Tú](cust_name)
+    - [bác](cust_sex) tên là [Năm](cust_name)
+    - [bác](cust_sex) tên là [Thuận](cust_name)
+    - [dì](cust_sex) tên là [Hoa](cust_name)
+    - [dượng](cust_sex) tên là [Hoàng](cust_name)
+    - [ông](cust_sex) tên là [Long](cust_name)
+    - [bà](cust_sex) tên là [Hồng](cust_name)
+    - [anh](cust_sex) tên là [Minh](cust_name)
+- intent: give_name
+  examples: |
+    - [mình](sex) là [Thắng](name)
+    - [mình](sex) là [Trân](name)
+    - [mình](sex) là [Thơ](name)
+    - [mình](sex) là [Kính](name)
+    - [mình](sex) là [Thúy Duy](name)
+    - [tớ](sex) là [Hằng](name)
+    - [tớ](sex) là [Nguyệt](name)
+    - [tớ](sex) là [Kim Anh](name)
+    - [tớ](sex) là [Ánh](name)
+    - [tớ](sex) là [Ngoan](name)
+    - [tôi](sex) là [Trang](name)
+    - [tui](sex) là [Quỳnh](name)
+    - [tui](sex) [Vân](name)
+    - [tui](sex) là [Hùng](name)
+    - [tôi](sex) tên là [Trang](name)
+    - [tôi](sex) tên là [Thủy](name)
+    - [tôi](sex) tên là [Ngọc Ngân](name)
+    - [tôi](sex) tên là [Bảo Ngọc](name)
+    - [tôi](sex) tên là [Kha](name)

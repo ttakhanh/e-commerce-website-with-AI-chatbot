@@ -1,0 +1,138 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: chao_hoi
+  steps:
+  - user: |
+      xin chào
+    intent: xin_chao
+  - action: utter_hoiten
+  - user: |
+      Anh tên là Thắng
+    intent: give_sex_and_name
+  - action: utter_xinchao_sex_and_name
+  - user: |
+      - tạm biệt
+    intent: tam_biet
+  - action: utter_tambiet
+
+- story: xin_chao_1
+  steps:
+  - user: |
+      xin chào
+    intent: xin_chao
+  - action: utter_hoiten
+  - user: |
+      Mình là Thắng
+    intent: give_name
+  - action: utter_xinchao_name
+  - user: |
+      - tạm biệt
+    intent: tam_biet
+  - action: utter_tambiet
+
+- story: cam_on
+  steps:
+  - user: |
+      thanks
+    intent: cam_on
+  - action: utter_camon
+
+- story: mo_cua
+  steps:
+  - user: |
+      khi nào mở cửa
+    intent: ask_open_and_close
+  - action: utter_open_and_close
+  - user: |
+      tạm biệt
+    intent: tam_biet
+  - action: utter_tambiet
+
+- story: giao_hang
+  steps:
+  - user: |
+      bạn có thể giao hàng cho tôi không
+    intent: ask_delivery
+  - action: utter_delivery
+  - user: |
+      bye
+    intent: tam_biet
+  - action: utter_tambiet
+#- story: happy path 2
+#  steps:
+#  - user: |
+#      hello there!
+#    intent: greet
+#  - action: utter_greet
+#  - user: |
+#      amazing
+#    intent: mood_great
+#  - action: utter_happy
+#  - user: |
+#      bye-bye!
+#    intent: goodbye
+#  - action: utter_goodbye
+#
+#- story: sad path 1
+#  steps:
+#  - user: |
+#      hello
+#    intent: greet
+#  - action: utter_greet
+#  - user: |
+#      not good
+#    intent: mood_unhappy
+#  - action: utter_cheer_up
+#  - action: utter_did_that_help
+#  - user: |
+#      yes
+#    intent: affirm
+#  - action: utter_happy
+#
+#- story: sad path 2
+#  steps:
+#  - user: |
+#      hello
+#    intent: greet
+#  - action: utter_greet
+#  - user: |
+#      not good
+#    intent: mood_unhappy
+#  - action: utter_cheer_up
+#  - action: utter_did_that_help
+#  - user: |
+#      not really
+#    intent: deny
+#  - action: utter_goodbye
+#
+#- story: sad path 3
+#  steps:
+#  - user: |
+#      hi
+#    intent: greet
+#  - action: utter_greet
+#  - user: |
+#      very terrible
+#    intent: mood_unhappy
+#  - action: utter_cheer_up
+#  - action: utter_did_that_help
+#  - user: |
+#      no
+#    intent: deny
+#  - action: utter_goodbye
+#
+#- story: say goodbye
+#  steps:
+#  - user: |
+#      bye-bye!
+#    intent: goodbye
+#  - action: utter_goodbye
+#
+#- story: bot challenge
+#  steps:
+#  - user: |
+#      are you a bot?
+#    intent: bot_challenge
+#  - action: utter_iamabot

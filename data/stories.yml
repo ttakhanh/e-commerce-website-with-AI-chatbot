@@ -1,0 +1,136 @@
+version: "3.1"
+
+stories:
+
+- story: chao_hoi
+  steps:
+  - intent: xin_chao
+  - action: utter_hoiten
+  - intent: give_sex_and_name
+  - action: utter_xinchao_sex_and_name
+  - intent: tam_biet
+  - action: utter_tambiet
+
+- story: chao_hoi_name
+  steps:
+  - intent: xin_chao
+  - action: utter_hoiten
+  - intent: give_name
+  - action: utter_xinchao_name
+  - intent: tam_biet
+  - action: utter_tambiet
+
+- story: mo_cua
+  steps:
+  - intent: xin_chao
+  - action: utter_hoiten
+  - intent: give_sex_and_name
+  - action: utter_xinchao_sex_and_name
+  - intent: ask_open_and_close
+  - action: utter_open_and_close
+  - intent: tam_biet
+  - action: utter_tambiet
+
+- story: giao_hang
+  steps:
+  - intent: ask_delivery
+  - action: utter_delivery
+  - intent: tam_biet
+  - action: utter_tambiet
+
+- story: cam_on
+  steps:
+  - intent: cam_on
+  - action: utter_camon
+
+#- story: sad path 1
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: mood_unhappy
+#  - action: utter_cheer_up
+#  - action: utter_did_that_help
+#  - intent: affirm
+#  - action: utter_happy
+#
+#- story: sad path 2
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: mood_unhappy
+#  - action: utter_cheer_up
+#  - action: utter_did_that_help
+#  - intent: deny
+#  - action: utter_goodbye
+
+#- story: interactive_story_1
+#  steps:
+#  - intent: cam_on
+#  - action: utter_camon
+#  - action: utter_tambiet
+
+- story: interactive_story_1
+  steps:
+  - intent: xin_chao
+  - action: utter_hoiten
+  - intent: give_sex_and_name
+    entities:
+    - cust_name: Thắng
+  - slot_was_set:
+    - cust_name: Thắng
+  - action: utter_xinchao_sex_and_name
+  - action: action_restart
+
+- story: interactive_story_1
+  steps:
+  - intent: xin_chao
+  - action: utter_hoiten
+  - intent: give_sex_and_name
+    entities:
+    - cust_name: Hùng
+  - slot_was_set:
+    - cust_name: Hùng
+
+- story: interactive_story_1
+  steps:
+  - intent: xin_chao
+  - action: utter_hoiten
+  - intent: give_sex_and_name
+    entities:
+    - cust_sex: anh
+    - cust_name: Thắng
+  - slot_was_set:
+    - cust_sex: anh
+  - slot_was_set:
+    - cust_name: Thắng
+  - action: utter_xinchao_sex_and_name
+  - intent: ask_delivery
+  - action: utter_delivery
+  - intent: cam_on
+  - action: utter_camon
+  - intent: ask_open_and_close
+  - action: utter_open_and_close
+  - intent: cam_on
+  - action: utter_camon
+
+- story: interactive_story_1
+  steps:
+  - intent: xin_chao
+  - action: utter_hoiten
+  - intent: give_sex_and_name
+    entities:
+    - cust_sex: anh
+    - cust_name: Minh
+  - slot_was_set:
+    - cust_sex: anh
+  - slot_was_set:
+    - cust_name: Minh
+  - action: utter_xinchao_sex_and_name
+  - intent: ask_open_and_close
+  - action: utter_open_and_close
+  - intent: ask_delivery
+  - action: utter_delivery
+  - intent: cam_on
+  - action: utter_camon
+  - intent: tam_biet
+  - action: utter_tambiet

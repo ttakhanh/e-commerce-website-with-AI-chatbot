@@ -1,0 +1,70 @@
+version: '3.1'
+intents:
+- ask_delivery
+- ask_open_and_close
+- cam_on
+- give_name
+- give_sex_and_name
+- tam_biet
+- xin_chao
+entities:
+- cust_sex
+- cust_name
+- sex
+- name
+slots:
+  cust_sex:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: cust_sex
+  cust_name:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: cust_name
+  sex:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: custom
+  name:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: name
+responses:
+  utter_hoiten:
+  - text: Cửa hàng xin chào quý khách! Quý khách vui lòng cho cửa hàng biết tên để tiện xưng hô được không ạ?
+  utter_xinchao_sex_and_name:
+  - text: Xin chào {cust_sex} {cust_name}! {cust_sex} {cust_name} muốn hỗ trợ gì ạ?
+  - text: Xin chào {cust_sex} {cust_name}! Rất vui khi được phục vụ {cust_sex} {cust_name} ạ!
+  utter_xinchao_name:
+  - text: Xin chào {name}! {name} muốn cửa hàng hỗ trợ gì ạ?
+  - text: Xin chào {name}! Rất vui khi được phục vụ {name}! Mình có thể hỗ trợ {name} gì ạ?
+  utter_camon:
+  - text: Dạ không có gì ạ.
+  - text: My pleasure!
+  - text: Not at all!
+  - text: Rất vui khi được phục vụ Quý khách!
+  utter_tambiet:
+  - text: Dạ cửa hàng xin chào tạm biệt Quý khách! Hi vọng lần sau được phục vụ Quý khách ạ.
+  - text: Rất hân hạnh khi được phục vụ Quý khách!
+  utter_delivery:
+  - text: Cửa hàng có thể giao hàng trong phạm vi 3km(<3km miễn phí), từ 3km trở lên thì mình thu thêm 5k/1km ạ.
+  utter_open_and_close:
+  - text: 'Giờ hoạt động: 8AM-10PM. Từ thứ 3 đến Chủ nhật(thứ 2 nghỉ).'
+actions:
+- utter_camon
+- utter_delivery
+- utter_hoiten
+- utter_open_and_close
+- utter_xinchao_sex_and_name
+- utter_tambiet
+- utter_xinchao_name
+session_config:
+  session_expiration_time: 40
+  carry_over_slots_to_new_session: true

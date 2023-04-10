@@ -1,0 +1,378 @@
+[
+  {
+    "text": "bạn có thể giao hàng cho tôi không",
+    "intent": "ask_delivery",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "bạn giao hàng được tới đâu",
+    "intent": "ask_delivery",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9998449087142944
+    }
+  },
+  {
+    "text": "bạn giao hàng được đến đâu",
+    "intent": "ask_delivery",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9993649125099182
+    }
+  },
+  {
+    "text": "bạn hỗ trợ giao hàng như thế nào",
+    "intent": "ask_delivery",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9999827146530151
+    }
+  },
+  {
+    "text": "bạn hỗ trợ hoàn trả hàng như thế nào",
+    "intent": "ask_delivery",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9991070628166199
+    }
+  },
+  {
+    "text": "chính sách giao hàng của bạn là gì",
+    "intent": "ask_delivery",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "khi nào đóng cửa",
+    "intent": "ask_open_and_close",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9999850988388062
+    }
+  },
+  {
+    "text": "khi nào bạn đóng cửa",
+    "intent": "ask_open_and_close",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "khi nào shop đóng cửa",
+    "intent": "ask_open_and_close",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "khi nào em đóng cửa",
+    "intent": "ask_open_and_close",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9998548030853271
+    }
+  },
+  {
+    "text": "khi nào mở cửa",
+    "intent": "ask_open_and_close",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9999969005584717
+    }
+  },
+  {
+    "text": "khi nào bạn mở cửa",
+    "intent": "ask_open_and_close",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "khi nào shop mở cửa",
+    "intent": "ask_open_and_close",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "khi nào em mở cửa",
+    "intent": "ask_open_and_close",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9992339611053467
+    }
+  },
+  {
+    "text": "khuyến mãi như thế nào",
+    "intent": "ask_promotion",
+    "intent_prediction": {
+      "name": "cam_on",
+      "confidence": 0.9406944513320923
+    }
+  },
+  {
+    "text": "khuyến mãi ra sao",
+    "intent": "ask_promotion",
+    "intent_prediction": {
+      "name": "cam_on",
+      "confidence": 0.9871928691864014
+    }
+  },
+  {
+    "text": "khi nào bắt đầu khuyến mãi",
+    "intent": "ask_promotion",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9943816065788269
+    }
+  },
+  {
+    "text": "khi nào kết thúc khuyến mãi",
+    "intent": "ask_promotion",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9801017045974731
+    }
+  },
+  {
+    "text": "cái gì khuyến mãi",
+    "intent": "ask_promotion",
+    "intent_prediction": {
+      "name": "cam_on",
+      "confidence": 0.7288879752159119
+    }
+  },
+  {
+    "text": "sản phẩm nào được khuyến mãi",
+    "intent": "ask_promotion",
+    "intent_prediction": {
+      "name": "cam_on",
+      "confidence": 0.9977262616157532
+    }
+  },
+  {
+    "text": "hạn sử dụng như thế nào",
+    "intent": "ask_maintain",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9618325233459473
+    }
+  },
+  {
+    "text": "cách bảo quản như thế nào",
+    "intent": "ask_maintain",
+    "intent_prediction": {
+      "name": "cam_on",
+      "confidence": 0.9961990714073181
+    }
+  },
+  {
+    "text": "bảo quản ở đâu",
+    "intent": "ask_maintain",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.6742474436759949
+    }
+  },
+  {
+    "text": "bảo quản chỗ nào",
+    "intent": "ask_maintain",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9744415879249573
+    }
+  },
+  {
+    "text": "sản phẩm nào cần bảo quản",
+    "intent": "ask_maintain",
+    "intent_prediction": {
+      "name": "cam_on",
+      "confidence": 0.8893874287605286
+    }
+  },
+  {
+    "text": "hướng dẫn bảo quản",
+    "intent": "ask_maintain",
+    "intent_prediction": {
+      "name": "cam_on",
+      "confidence": 0.9842064380645752
+    }
+  },
+  {
+    "text": "bạn có những món gì",
+    "intent": "ask_menu",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9999997615814209
+    }
+  },
+  {
+    "text": "em có những món gì",
+    "intent": "ask_menu",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9996852874755859
+    }
+  },
+  {
+    "text": "shop có những món gì",
+    "intent": "ask_menu",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9999997615814209
+    }
+  },
+  {
+    "text": "cửa hàng có những món gì",
+    "intent": "ask_menu",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9998961687088013
+    }
+  },
+  {
+    "text": "còn món nào không ạ",
+    "intent": "ask_menu",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9999997615814209
+    }
+  },
+  {
+    "text": "còn không",
+    "intent": "ask_menu",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "còn những món gì",
+    "intent": "ask_menu",
+    "intent_prediction": {
+      "name": "cam_on",
+      "confidence": 0.5064852833747864
+    }
+  },
+  {
+    "text": "còn những thứ gì",
+    "intent": "ask_menu",
+    "intent_prediction": {
+      "name": "cam_on",
+      "confidence": 0.962115466594696
+    }
+  },
+  {
+    "text": "menu của cửa hàng bạn là gì",
+    "intent": "ask_menu",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9999899864196777
+    }
+  },
+  {
+    "text": "món nào ngon vậy ạ",
+    "intent": "ask_name_delicious",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9545201063156128
+    }
+  },
+  {
+    "text": "món nào ít calo",
+    "intent": "ask_name_delicious",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9999504089355469
+    }
+  },
+  {
+    "text": "món nào không ngọt",
+    "intent": "ask_name_delicious",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9999945163726807
+    }
+  },
+  {
+    "text": "món nào rẻ",
+    "intent": "ask_price",
+    "intent_prediction": {
+      "name": "cam_on",
+      "confidence": 0.9949193596839905
+    }
+  },
+  {
+    "text": "món nào đắt nhất",
+    "intent": "ask_price",
+    "intent_prediction": {
+      "name": "cam_on",
+      "confidence": 0.981106162071228
+    }
+  },
+  {
+    "text": "giá các món như thế nào",
+    "intent": "ask_price",
+    "intent_prediction": {
+      "name": "cam_on",
+      "confidence": 0.8913290500640869
+    }
+  },
+  {
+    "text": "món nào phù hợp với trẻ nhỏ",
+    "intent": "ask_suitable",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9968018531799316
+    }
+  },
+  {
+    "text": "món nào cho người già",
+    "intent": "ask_suitable",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9999983310699463
+    }
+  },
+  {
+    "text": "có mấy loại sản phẩm",
+    "intent": "ask_new",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.9999973773956299
+    }
+  },
+  {
+    "text": "món nàn bán chạy nhất",
+    "intent": "ask_new",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.889062225818634
+    }
+  },
+  {
+    "text": "sản phẩm nào bán chạy nhất",
+    "intent": "ask_new",
+    "intent_prediction": {
+      "name": "xin_chao",
+      "confidence": 0.8991315960884094
+    }
+  },
+  {
+    "text": "món nào mới nhất",
+    "intent": "ask_new",
+    "intent_prediction": {
+      "name": "cam_on",
+      "confidence": 0.8504186868667603
+    }
+  }
+]
